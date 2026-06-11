@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 500px;
+            background-color: black;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+        }
 
+        @font-face  {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+        h1{
+            font-family: Paperozi;
+            font-weight: bold;
+            color: red;
+            text-align: center;
+        }
+
+        h3{
+            font-family: Paperozi;
+            font-size: small;
+            color: white;
+            text-align: right;
+            margin-right: 10%;
+        }
+
+        p{
+            font-family: Paperozi;
+            color: white;
+            text-align: center;
+            
+        }
+
+        @media screen and (min-width: 767px) and (max-width: 1200px){
+
+            .container{
+                background-color: red;
+            }
+        }
+
+        @media screen and (max-width: 767px){
+
+            .container{
+                background-color: white;
+            }
+        }
+
+        .container:hover{
+            background: black;
+            background: linear-gradient(90deg,rgba(28, 48, 56, 1) 0%, rgba(8, 15, 11, 1) 36%, rgba(235, 0, 8, 1) 100%);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class = "container" >
+        <h1>첫사랑</h1>
+        <h3>권보연(with LLM)</h3>
+        <p>서가의 한쪽에서 시작된 우리<br>나사의 체결처럼 단단히 묶인 인연<br>너와 나는 무인서사기처럼<br>아무도 모르게 서로의 마음을 빌리고 반납했지.<br>외부 관리 DB에 저장된 우리 기억.<br>비상구를 가리키는 방향지시도형처럼<br>어떤 어려움이 닥쳐도 나아갔던 우리,<br>좌석 현황 DB에 남아있는 우리의 사랑,<br>첫사랑의 열람실에서 여전히 빛나고 있네<br></p>
+    </div>
+</body>
+</html>
